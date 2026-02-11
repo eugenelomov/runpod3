@@ -1,6 +1,6 @@
 # Use gonka's custom vLLM image with PoC v2 endpoints support
 # fix5: SM120+ PyTorch fallbacks, copies only 3 modified files (not all .py)
-FROM ghcr.io/vedenij/vllm:v0.9.1-poc-v2-blackwell-fix5
+FROM ghcr.io/vedenij/vllm:v0.9.1-poc-v2-blackwell-fix6
 
 # Set working directory
 WORKDIR /app
